@@ -50,6 +50,7 @@ article {
     background-color: #fff;
     margin-top: 40px;
     padding-right: 10px;
+    border: 1px solid #ccc;
 }
 
 .pageTitle {
@@ -68,6 +69,7 @@ article {
     margin-right: 25px; 
     height: 250px;
     width: 250px;
+
     float: left;
     margin-left: 35px;
 }
@@ -109,6 +111,7 @@ input {
 img {
     width: 300px;
     height: 200px;
+    border: 1px solid #ccc;
 }
 
 .img-container {
@@ -133,4 +136,79 @@ footer {
 
 #footer {
     color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+        padding-left: 0px;
+    }
+
+    h1 {
+        width: 425px;
+        font-size: 24px;
+        margin: 0px;
+        margin-left: -10px;
+    }
+
+    .pageTitle {
+        width: 340px;
+    }
+
+    nav {
+        position: static;
+        width: 460px;
+        margin-left: -5px;
+        text-align: center;
+        background-color: white;
+        border-bottom: 3px solid #ccc;
+    }
+
+    article {
+        margin-left: 5px;
+        width: 420px;
+        margin-top: 120px;
+        height: 800px
+    }
+
+    .pageTitle {
+        margin-bottom: 15px;
+    }
+    
+    #bioInfo {
+        height: 950px;
+    }
+
+    #contactForm {
+        height: 570px;
+        margin-bottom: 115px;
+    }
+
+    form {
+        margin-left: 30px;
+    }
+
+
+    input {
+        width: 350px;
+    }
+
+    .img-container {
+        clear: both;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
 }
