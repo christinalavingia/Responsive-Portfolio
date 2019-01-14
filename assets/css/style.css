@@ -62,7 +62,7 @@ article {
     background-color: #fff;
     color: #16c9ff;
     height: 50px;
-    width: 875px;
+    width: 920px;
     margin-left: 25px;
     text-align: left;
     margin-top: 15px;
@@ -147,7 +147,7 @@ footer {
     width: 700px;
 }
 .pageTitle {
-    width: 670px;
+    width: 720px;
 }
 
 input {
@@ -176,7 +176,7 @@ article {
 @media screen and (max-width: 768px) {
 
 .pageTitle {
-    width: 530px;
+    width: 580px;
 }
 
 input {
@@ -224,7 +224,7 @@ nav {
 }
 
 .pageTitle {
-    width: 320px;
+    width: 350px;
     margin-bottom: 20px;
 }
 
