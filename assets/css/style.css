@@ -15,8 +15,6 @@ h1 {
     text-align: center;
     background-color: #16c9ff;
     float: left;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-top: -10px;
     font-family:'Georgia', Times, 'Times New Roman', serif;
     color: white;
@@ -27,6 +25,7 @@ nav {
     position: relative;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     word-spacing: 20px;
+    text-align: center;
     margin-right: 30px;
 }
 
@@ -117,12 +116,14 @@ input {
 img {
     width: 300px;
     height: 200px;
+    border: 2px solid #ccc;
 }
 
 .img-container {
     float: left;
-    width: 33.33%;
-    padding-left: 20px;
+    position: relative;
+    top: 110px;
+    margin-left: 15px;
 }
 
 footer {
@@ -163,6 +164,8 @@ article {
 
 .img-container {
     width: 50%;
+    position: relative;
+    top: 0px;
     padding-left: 33.33%;
 }
     
@@ -199,7 +202,7 @@ article {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
 #container {
     width: 100%;
     margin: 0;
@@ -217,7 +220,7 @@ h1 {
 }
 
 nav {
-    margin-right: 80px;
+    margin-right: 23%;
 }
 
 .pageTitle {
