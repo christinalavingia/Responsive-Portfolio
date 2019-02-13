@@ -58,7 +58,7 @@ article {
     padding-right: 10px;
 }
 
-.pageTitle {
+.pageTitle, .pageTitlePort {
     background-color: #fff;
     color: #16c9ff;
     height: 50px;
@@ -122,8 +122,9 @@ img {
 .img-container {
     float: left;
     position: relative;
-    top: 110px;
+    top: 20px;
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -147,7 +148,11 @@ footer {
     width: 700px;
 }
 .pageTitle {
-    width: 720px;
+    width: 710px;
+}
+
+.pageTitlePort  {
+    width: 560px;
 }
 
 input {
@@ -159,14 +164,15 @@ article {
 }
 
 #portfolioArticle {
-    height: 750px;
+    height: 1500px;
+    width: 600px;
 }
 
 .img-container {
     width: 50%;
     position: relative;
     top: 0px;
-    padding-left: 33.33%;
+    padding-left: 25%;
 }
     
 
@@ -177,6 +183,10 @@ article {
 
 .pageTitle {
     width: 580px;
+}
+
+.pageTitlePort {
+    width: 460px;
 }
 
 input {
@@ -192,12 +202,13 @@ article {
 }
 
 #portfolioArticle {
-    height: 750px;
+    height: 1500px;
+    width: 500px;
 }
 
 .img-container {
     width: 50%;
-    padding-left: 33.33%;
+    padding-left: 18%;
 }
 
 }
@@ -210,6 +221,10 @@ article {
     border-bottom: 3px solid #ccc;
     height: 150px;
     background-color: white;
+}
+
+.pageTitlePort {
+    width: 360px;
 }
 
 h1 {
@@ -245,7 +260,8 @@ article {
 }
 
 #portfolioArticle {
-    height: 850px;
+    height: 1600px;
+    width: 400px;
 }
 
 #myBio {
@@ -254,7 +270,7 @@ article {
 
 .img-container {
     width: 50%;
-    padding-left: 40px;
+    padding-left: 30px;
     padding-top: 15px;
 }
 
