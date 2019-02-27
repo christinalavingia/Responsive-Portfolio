@@ -8,6 +8,11 @@ header {
     width: 960px;
 }
 
+#woman {
+    width: 175px;
+    height: 140px;
+    margin-left: 15px;
+}
 
 h1 {
     text-align: center;
@@ -165,6 +170,12 @@ footer {
     width: 560px;
 }
 
+#woman {
+    margin-left: 80px;
+    width: 150px;
+    height: 120px;
+}
+
 input {
     width: 650px;
 }
@@ -187,7 +198,8 @@ article {
 }
     
 .contactimg {
-    margin-left: 100px;
+    margin-left: 120px;
+    margin-bottom: 100px;
 }
 
 }
@@ -204,6 +216,10 @@ article {
 
 input {
     width: 540px;
+}
+
+#woman {
+    margin-left: 50px;
 }
 
 article {
@@ -226,7 +242,7 @@ article {
 }
 
 .contactimg {
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 }
@@ -297,6 +313,12 @@ article {
     width: 70px;
     height: 65px;
     margin-left: 50px;
+}
+
+#woman {
+    width: 90px;
+    height: 70px;
+    margin-left: 40px;
 }
 
 }
