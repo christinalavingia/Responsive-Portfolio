@@ -1,53 +1,106 @@
 <!DOCTYPE html>
 <html lang="en us">
-    <head>
-        <meta charset="UTF 8">
-        <title>Christina's Portfolio</title>
-        <link href="https://fonts.googleapis.com/css?family=League+Script" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
 
-    <body>
-        <header>
-            <div id="container">
-                <h1>Christina Lavingia</h1>
+<head>
+    <meta charset="UTF 8">
+    <title>Christina's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=League+Script" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-                <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
+<body>
+    <header>
+        <div id="container">
+            <h1>Christina Lavingia</h1>
+
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <article id="portfolioArticle">
+        <h1 class="pageTitlePort">Portfolio</h1>
+
+        <div id="slideshow">
+            <div class="w3-content w3-display-container">
+
+                <div class="w3-display-container mySlides">
+                    <a href="https://friend-finder-2019-ucla.herokuapp.com/" target="_blank"><img src="assets/images/friend.png"
+                            style="width:100%"></a>
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                        Node and Express App: Meet Your New Best Friend
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides">
+                    <a href="https://char-dy.github.io/Ski-Project/" target="_blank"><img src="assets/images/ski.png" style="width:100%"></a>
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                        jQuery, Google and Ski APIs: Find the Best Local Ski Resort to Visit This Weekend
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides">
+                    <a href="https://christinalavingia.github.io/Crystals-Collector/" target="_blank"><img src="assets/images/crystals.png"
+                            style="width:100%"></a>
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                        jQuery Game: See If You Can Hit the Number Without Going Over!
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides">
+                        <a href="https://burger-express-handlebars-orm.herokuapp.com/" target="_blank"><img src="assets/images/burger.png"
+                                style="width:100%"></a>
+                        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                            MVC, Express and Handlebars: Eat A Burger (Virtually)!
+                        </div>
+                    </div>
+
+                <div class="w3-display-container mySlides">
+                        <a href="https://christinalavingia.github.io/Trivia-Game/" target="_blank"><img src="assets/images/fantasy.png"
+                                style="width:100%"></a>
+                        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                            JavaScript Quiz: Test Your NFL 2018 Season Knowledge in 60 Seconds
+                        </div>
+                    </div>
+
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
             </div>
-        </header>
+        </div>
+    </article>
 
-        <article id="portfolioArticle">
-            <h1 class="pageTitlePort">Portfolio</h1>
-            <div class="clearfix">
-                <div class="img-container">
-                    <a href="https://char-dy.github.io/Ski-Project/" target="_blank"><img src="assets/images/ski.png" alt="ski"></a>
-                </div>
-                <div class="img-container">
-                    <a href="https://christinalavingia.github.io/Crystals-Collector/" target="_blank"><img src="assets/images/crystals.png" alt="crystals"></a>
-                </div>
-                <div class="img-container">
-                    <a href="https://christinalavingia.github.io/Trivia-Game/" target="_blank"><img src="assets/images/fantasy.png" alt="fantasy"></a>
-                </div>
-                <div class="img-container">
-                    <a href="https://friend-finder-2019-ucla.herokuapp.com/" target="_blank"><img src="assets/images/friend.png" alt="friends"></a>
-                </div>
-                <div class="img-container">
-                    <a href="https://christinalavingia.github.io/Psychic-Game/" target="_blank"><img src="assets/images/psychic.png" alt="psychic"></a>
-                </div>
-                <div class="img-container">
-                    <a href="https://burger-express-handlebars-orm.herokuapp.com/" target="_blank"><img src="assets/images/burger.png" alt="burger"></a>
-                </div>
-                </div>
-        </article>
-    
-        <footer>
-            <p id="footer">Copyright©</p>
-        </footer>
+    <footer>
+        <p id="footer">Copyright©</p>
+    </footer>
 
-    </body>
+
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+</body>
+
 </html>
