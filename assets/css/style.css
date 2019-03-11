@@ -32,6 +32,11 @@ nav {
     margin-right: 30px;
 }
 
+#slideshow {
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
 .contactimg {
     border: none;
     width: 120px;
@@ -134,7 +139,6 @@ img {
     width: 300px;
     border: 2px solid #ccc;
     height: 570px;
-    margin-top: 30px;
 }
 
 footer {
@@ -179,7 +183,6 @@ article {
 }
 
 #portfolioArticle {
-    height: 1500px;
     width: 600px;
 }
     
@@ -222,7 +225,6 @@ article {
 
 
 #portfolioArticle {
-    height: 1500px;
     width: 500px;
 }
 
@@ -284,7 +286,6 @@ article {
 }
 
 #portfolioArticle {
-    height: 1600px;
     width: 400px;
 }
 
@@ -295,6 +296,7 @@ article {
 .contactimg {
     width: 70px;
     height: 65px;
+    margin-top: -50px;
     margin-left: 50px;
 }
 
